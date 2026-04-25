@@ -9,7 +9,7 @@ env:
   DEVICE_NAME : "Xiaomi-10-Lite-Zoom-CN"
   DEVICE_CODENAME : "vangogh"
 
-  CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
+  CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-android-"
   EXTRA_CMDS : "LLVM=1 LLVM_IAS=1 CC=clang LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip"
 
   KERNEL_SOURCE : "https://github.com/xiaomi-sm7250-devs/android_kernel_xiaomi_sm7250.git"
